@@ -1,0 +1,18 @@
+	< 홈플러스 >
+
+model : Logistic Regression
+
+process : Binning, Scaling, Sampling
+
+summary : 
+     값에 0이 들어가면 영향이 없어져
+     0이 들어가는 column들을 Binning.
+     각 feature의 평균을 0, 분산을 1로 Scaling.
+     Training set으로 폐점한 4개의 데이터와 
+     유지중인 36개 데이터를 뽑아 
+     총 40개의 데이터로 Sampling을 통해
+     상관관계가 대체적으로 크게 올랐고 
+     그 중 "3km내 자사", "순위", "카페"에서 
+     강한 상관관계가 있는 것을 볼 수 있습니다.
+
+	

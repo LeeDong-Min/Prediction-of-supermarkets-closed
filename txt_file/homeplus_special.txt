@@ -1,0 +1,19 @@
+	<홈플러스 스페셜>
+
+model : Logistic Regression
+
+process : Binning, Scaling, Sampling
+
+summary : 
+     전체적으로 1,2,3으로 Binning.
+     중앙값(median)이 0, IQR이 1이 되도록 
+     RobustScaler 변환.
+     이상치에 영향을 받지 않습니다.
+     Training set으로 창고형 데이터 20개와 
+     유지중인 마트데이터 30개를 뽑아 
+     총 50개의 데이터로 Sampling.
+     전처리과정을 통해 
+     "연면적", "주차시설", "영업이익"의
+     column들이 강한 상관관계가 있는 것을
+     볼 수 있습니다.
+     
