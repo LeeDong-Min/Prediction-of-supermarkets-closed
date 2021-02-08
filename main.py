@@ -145,7 +145,7 @@ class Main(QMainWindow, Ui_MainWindow):
 
     def load_Traders(self):
         self.initAuthLock()
-        self.df = pd.read_excel("./Data/emart/창고형.xlsx")
+        self.df = pd.read_excel("./Data/emart/Warehouse.xlsx")
         self.brand = 'ET'
         self.show_excel()
         self.show_corr()
